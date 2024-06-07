@@ -15,7 +15,7 @@ This project aims to develop a low-cost, low-power device capable of solving the
 - **Microcontroller**: TM4C123GH6PM ARM Cortex-M4F for handling digital signal processing.
 - **Serial Interface**: UART0 for communication with a host device.
 
-![Hardware Architecture](Images/hardware_architecture.png)
+![Hardware Architecture](Images/hardware architecture.jpg)
 
 ## Software Development
 - Implement cross-correlation algorithms for TDoA calculation.
