@@ -1,54 +1,46 @@
-# AoA-Embedded-Systems
+# Embedded Systems II: AoA of Multidirectional Audio System
 
-AoA-Embedded-Systems is an open-source project focused on developing a low-cost and energy-efficient embedded system to determine the Angle of Arrival (AoA) of sound using a multidirectional microphone array. This project uses the TM4C123GH6PM microcontroller, integrating advanced digital signal processing techniques to analyze audio signals in real-time.
+## Overview
+This project aims to develop a low-cost, low-power device capable of solving the angle of arrival (AoA) problem using a multidirectional array of microphones. The system is designed to work efficiently in resource-constrained environments, utilizing the TM4C123GH6PM microcontroller.
 
-## Project Overview
+![Project Flowchart](images/project_flowchart.png)
 
-This system is designed to solve the AoA problem efficiently in environments where resources are limited. By utilizing a set of precisely calibrated microphones and sophisticated cross-correlation algorithms, the project aims to accurately calculate the source direction of incoming sounds.
+## Objectives
+- Develop an embedded system for accurate AoA calculation.
+- Ensure low power consumption and efficient operation.
+- Provide a robust user interface for real-time monitoring and configuration.
 
-## Features
+## Hardware Architecture
+- **Microphones and Conditioning Circuits**: Four precision microphones with amplified outputs.
+- **Microcontroller**: TM4C123GH6PM ARM Cortex-M4F for handling digital signal processing.
+- **Serial Interface**: UART0 for communication with a host device.
 
-- **Multidirectional Microphone Array**: Utilizes multiple microphones to capture sound from various directions.
-- **Real-time Processing**: Employs the TM4C123GH6PM microcontroller for high-performance audio signal processing.
-- **Cross-correlation Algorithms**: Analyzes time differences in sound wave arrivals to determine the AoA.
-- **Low Power Consumption**: Optimized for environments with limited power resources.
+![Hardware Architecture](images/hardware_architecture.png)
 
-## Hardware Components
+## Software Development
+- Implement cross-correlation algorithms for TDoA calculation.
+- Provide a command-line interface over UART for system control.
 
-- **TM4C123GH6PM Microcontroller**: Manages digital signal processing and I/O operations.
-- **Microphones and Conditioning Circuits**: Captures and amplifies sound signals.
-- **Amplifiers and Filters**: Enhances signal quality and reduces noise.
-
-## Software Components
-
-- **Embedded C Code**: Contains all the logic for signal processing and system operation.
-- **Command-line Interface**: Allows users to configure and control the system in real-time.
-
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/AoA-Embedded-Systems.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd AoA-Embedded-Systems
-   ```
-3. Follow the hardware setup instructions provided in the `docs` folder.
+## Setup Instructions
+1. Connect the hardware as per the provided circuit schematics.
+2. Upload the firmware to the TM4C123GH6PM microcontroller.
+3. Use a serial terminal (e.g., PuTTY) to interact with the system.
 
 ## Usage
+- **Commands**:
+  - `reset`: Resets the hardware.
+  - `average`: Displays average microphone values.
+  - `level`: Updates the detection threshold.
+  - `aoa`: Returns the current angle of arrival.
 
-Start the system by running the embedded software uploaded to the microcontroller, and use the command-line interface to adjust settings and monitor outputs.
+## Future Improvements
+- Enhance DMA buffer management.
+- Upgrade to advanced ADCs for better accuracy.
+- Implement adaptive threshold algorithms.
 
-## Contributing
-
-Contributions are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests to us.
+## Contributions
+Contributions are welcome. Please open an issue or submit a pull request.
 
 ## License
+This project is licensed under the MIT License.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Special thanks to all contributors who have invested their time in improving this project.
-- Project inspired by challenges in real-time audio processing in resource-constrained environments.
