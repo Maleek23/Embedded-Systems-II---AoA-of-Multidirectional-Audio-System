@@ -1,9 +1,13 @@
-# Embedded Systems II: Angle of Arrival (AoA) of Multidirectional Audio System
+Certainly! Here's a sample README file for your Embedded Systems II project on the Angle of Arrival (AoA) of Multidirectional Audio System:
+
+---
+
+# Angle of Arrival (AoA) Multidirectional Audio System
 
 ## Overview
 This project aims to develop a cost-effective and energy-efficient device capable of solving the angle of arrival (AoA) problem using a multidirectional array of microphones. The system is designed to work efficiently in resource-constrained environments, utilizing the TM4C123GH6PM microcontroller.
 
-<img src="Images/hardware.jpg" alt="Hardware Architecture" width="500"/>
+![Hardware Architecture](Images/hardware.jpg)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -36,7 +40,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ### Serial Interface
 - UART0 for communication with a host device via a virtual COM port through a USB endpoint.
 
-<img src="Images/hardware.jpg" alt="Hardware Architecture" width="500"/>
+![Hardware Architecture](Images/hardware.jpg)
 
 ### Suggested Parts List
 - TM4C123G evaluation board (ARM M4F)
@@ -47,7 +51,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 
 ## Software Development
 ### Audio Processing Requirements
-- Implement cross-correlation algorithms for precise TDoA calculations necessary for accurate AoA determination.
+- Implement cross-correlation algorithms for precise Time Difference of Arrival (TDoA) calculations necessary for accurate AoA determination.
 
 ### Cross-correlation for TDoA Calculation
 - Calculate the cross-correlation between signals received at different microphones to derive the TDoA.
@@ -55,9 +59,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ### User Interface Commands and Control
 - Command-line interface over UART for system configuration, calibration, and real-time processing results.
 
-<img src="Images/PUTTYUI.PNG" alt="PuTTY UI" width="500"/>
-
-
+![PuTTY UI](Images/PUTTYUI.PNG)
 
 ## Setup Instructions
 1. **Hardware Setup**:
@@ -83,17 +85,17 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 - `fail ON|OFF`: Enables or disables the display of partial data from sensors when there is no qualified event.
 
 ## Testing
-- **Hardware Testing**: The hardware will be tested in the designated lab using provided equipment.
-- **Software Testing**: The system's response to various audio inputs will be tested to ensure accurate AoA calculations.
+- **Hardware Testing**: Validate hardware functionality using standard equipment.
+- **Software Testing**: Verify software accuracy and reliability with various audio inputs.
 
 ## Project Report
 - Detailed documentation and findings are included in the project report.
 - [Embedded Systems II Project Report](reports/Abdulmalik_Ajisegiri_Embedded_ProjectReport.pdf)
 
 ## Future Improvements
-- **DMA Buffer Management**: Implement a more sophisticated buffer management strategy to prevent data loss.
-- **Advanced ADCs**: Upgrade to advanced ADCs with higher sampling rates for improved accuracy.
-- **Adaptive Threshold Algorithms**: Integrate algorithms that adjust thresholds in real-time based on ambient noise.
+- **DMA Buffer Management**: Implement advanced buffer management strategies to prevent data loss.
+- **Advanced ADCs**: Upgrade ADCs for higher sampling rates and improved accuracy.
+- **Adaptive Threshold Algorithms**: Integrate algorithms for real-time threshold adjustment based on ambient noise.
 
 ## Contributions
 Contributions are welcome! Please open an issue or submit a pull request with your improvements.
@@ -104,6 +106,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## References
 - TM4C123GH6PM datasheet
 - Online resources
-
-
 
