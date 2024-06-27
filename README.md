@@ -105,6 +105,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - TM4C123GH6PM datasheet
 - Online resources
 
-![PCB Design](images/pcb_design.png)
 
 
