@@ -55,7 +55,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ### User Interface Commands and Control
 - Command-line interface over UART for system configuration, calibration, and real-time processing results.
 
-![User Interface](images/putty_interface.png)
+![User Interface](Screenshots/Screenshot 2024-05-02 221458.png)
 
 ## Setup Instructions
 1. **Hardware Setup**:
