@@ -59,7 +59,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 - Command-line interface over UART for system configuration, calibration, and real-time processing results.
 
 
-<img src="Images/PUTTYUI.PNG)" alt="PuTTY UI" width="500"/>
+<img src="Images/PUTTYUI.PNG" alt="PuTTY UI" width="500"/>
 
 ## Setup Instructions
 1. **Hardware Setup**:
