@@ -1,4 +1,4 @@
-Certainly! Here's a sample README file for your Embedded Systems II project on the Angle of Arrival (AoA) of Multidirectional Audio System:
+My apologies for that. Here's the corrected README file without the image resize tags:
 
 ---
 
@@ -107,3 +107,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - TM4C123GH6PM datasheet
 - Online resources
 
+---
+
+This README file provides a comprehensive overview and guidance for potential users and contributors of your project, without any image resize tags. Adjust placeholders (`yourusername`, image paths, etc.) with your actual project details before using it.
