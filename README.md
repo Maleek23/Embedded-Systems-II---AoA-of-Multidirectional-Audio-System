@@ -97,7 +97,8 @@ Implemented to prevent data loss and ensure continuous processing of audio signa
 
 ## Project Report
 - Detailed documentation and findings are included in the project report.
-- [Embedded Systems II Project Report](images/Abdulmalik_Ajisegiri_Embedded_ProjectReport.pdf)
+- [Embedded Systems II Project Report](Images/Abdulmalik%20Ajisegiri_Embedded_ProjectReport.pdf)
+
 
 ## Future Improvements
 - **DMA Buffer Management**: Implement advanced buffer management strategies to prevent data loss.
