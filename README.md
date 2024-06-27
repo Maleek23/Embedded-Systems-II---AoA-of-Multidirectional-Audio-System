@@ -97,7 +97,7 @@ Implemented to prevent data loss and ensure continuous processing of audio signa
 
 ## Project Report
 - Detailed documentation and findings are included in the project report.
-- [Embedded Systems II Project Report](reports/Abdulmalik_Ajisegiri_Embedded_ProjectReport.pdf)
+- [Embedded Systems II Project Report](images/Abdulmalik_Ajisegiri_Embedded_ProjectReport.pdf)
 
 ## Future Improvements
 - **DMA Buffer Management**: Implement advanced buffer management strategies to prevent data loss.
@@ -114,6 +114,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - TM4C123GH6PM datasheet
 - Online resources
 
----
 
-This README file provides a comprehensive overview and guidance for potential users and contributors of your project, without any image resize tags. Adjust placeholders (`yourusername`, image paths, etc.) with your actual project details before using it.
