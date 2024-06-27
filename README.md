@@ -35,7 +35,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ## DMA Buffer Management
 DMA buffers are utilized for efficient data transfer between peripherals (like ADCs capturing microphone data) and the microcontroller’s memory.
 Implemented to prevent data loss and ensure continuous processing of audio signals.
-<img src="Images/DMAUI.jpg" alt="DMA Buffers" width="500"/>
+<img src="Images/DMAUI.png" alt="DMA Buffers" width="500"/>
 
 
 
