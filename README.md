@@ -32,6 +32,13 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 - Amplification circuits providing 40 dB gain to ensure signal integrity.
 <img src="Images/hardware.jpg" alt="Hardware Architecture" width="500"/>
 
+## DMA Buffer Management
+DMA buffers are utilized for efficient data transfer between peripherals (like ADCs capturing microphone data) and the microcontroller’s memory.
+Implemented to prevent data loss and ensure continuous processing of audio signals.
+<img src="Images/DMAUI.jpg" alt="DMA Buffers" width="500"/>
+
+
+
 
 ### Microcontroller
 - TM4C123GH6PM ARM Cortex-M4F microcontroller for handling digital signal processing tasks.
@@ -59,7 +66,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 - Command-line interface over UART for system configuration, calibration, and real-time processing results.
 
 
-<img src="Images/PUTTYUI.PNG" alt="PuTTY UI" width="500"/>
+<img src="Images/PUTTYUI.PNG" alt="PuTTY UI" width="700"/>
 
 ## Setup Instructions
 1. **Hardware Setup**:
