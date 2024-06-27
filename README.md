@@ -30,7 +30,8 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ### Microphones and Conditioning Circuits
 - Four precision microphones with a sensitivity of -44 dBV/Pa.
 - Amplification circuits providing 40 dB gain to ensure signal integrity.
-  ![Hardware Architecture](Images/hardware.jpg)
+![Hardware Architecture](Images/hardware.jpg){:width="600px"}
+
 
 ### Microcontroller
 - TM4C123GH6PM ARM Cortex-M4F microcontroller for handling digital signal processing tasks.
