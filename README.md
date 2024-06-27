@@ -7,8 +7,6 @@ My apologies for that. Here's the corrected README file without the image resize
 ## Overview
 This project aims to develop a cost-effective and energy-efficient device capable of solving the angle of arrival (AoA) problem using a multidirectional array of microphones. The system is designed to work efficiently in resource-constrained environments, utilizing the TM4C123GH6PM microcontroller.
 
-![Hardware Architecture](Images/hardware.jpg)
-
 ## Table of Contents
 - [Overview](#overview)
 - [Objectives](#objectives)
@@ -32,6 +30,7 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ### Microphones and Conditioning Circuits
 - Four precision microphones with a sensitivity of -44 dBV/Pa.
 - Amplification circuits providing 40 dB gain to ensure signal integrity.
+  ![Hardware Architecture](Images/hardware.jpg)
 
 ### Microcontroller
 - TM4C123GH6PM ARM Cortex-M4F microcontroller for handling digital signal processing tasks.
@@ -40,7 +39,6 @@ This project aims to develop a cost-effective and energy-efficient device capabl
 ### Serial Interface
 - UART0 for communication with a host device via a virtual COM port through a USB endpoint.
 
-![Hardware Architecture](Images/hardware.jpg)
 
 ### Suggested Parts List
 - TM4C123G evaluation board (ARM M4F)
